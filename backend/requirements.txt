@@ -18,3 +18,5 @@ httpx>=0.26.0
 
 # Database
 sqlite3-to-mysql; platform_system != "Windows" # Optional driver, standard library sqlite3 is built-in
+
+groq

@@ -66,3 +66,36 @@ yarn-error.log*
 *.swo
 .DS_Store
 Thumbs.db
+
+# Python virtual environment
+.venv/
+
+# Dataset files
+data/flickr8k/
+
+# Model checkpoints
+training/checkpoints/
+
+# Hugging Face cache
+data/huggingface/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Local ML model weights
+/models/
+
+# Local BLIP experiments
+blip_test/
+
+# Local dataset sample
+data/flickr8k_sample.jpg
+
+# Dataset inspection script
+training/inspect_flickr8k.py
+
+# Streamlit local secrets
+**/.streamlit/secrets.toml
+streamlit_app/.venv/
+.venv-unix/
